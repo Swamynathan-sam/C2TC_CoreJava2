@@ -1,6 +1,9 @@
 package oops;
 public class MethodOverloading {
-	
+	/**In method Overloading
+	 * Method name should be same
+	 * Either the parameter or return type should be different
+	 */
 	int add(int a, int b)
 	{
 		int sum=a+b;
@@ -28,8 +31,6 @@ public class MethodOverloading {
 		System.out.println(obj.add(3.45f, 5.67f));
 		System.out.println(obj.add(10, 20.22f,67));
 		System.out.println(obj.add(24.67f, 20,100));
-		
-
 	}
 
 }
