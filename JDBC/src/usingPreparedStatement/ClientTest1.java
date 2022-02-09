@@ -14,7 +14,7 @@ public class ClientTest1 {
 			System.out.println("JDBC:connection is taken..");
 
 		// String sql="delete from employee_table where employee_name='gayatri'";
-		String sql = "update employee_table set ename='dhanya'where eid=6";
+		String sql="update employee_table set employee_name='dhanya'where employee_id=3";
 		try {
 			ps = connection.prepareStatement(sql);
 			int n = ps.executeUpdate();

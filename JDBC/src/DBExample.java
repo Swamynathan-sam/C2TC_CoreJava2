@@ -1,3 +1,4 @@
+//WAP to create a connection between eclipse and MS Access
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
